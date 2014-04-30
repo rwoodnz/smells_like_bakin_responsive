@@ -13,7 +13,7 @@ a {
 	text-decoration: none;
 }
 
-img { 
+img, object { 
 
 	max-width: 100%;
 }
@@ -147,8 +147,8 @@ h3 {
 	text-align: center;
 }
 
-/* iphone */
-@media screen and (max-width: 480px) {
+/* small resolution */
+@media screen and (max-width: 650px) {
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -205,5 +205,10 @@ h3 {
 	#new-cupcakes img {
 		max-width: 95%;
 	}
+
+}
+
+/* medium resolution */
+@media screen and {max-width: 1024px} {
 
 }
